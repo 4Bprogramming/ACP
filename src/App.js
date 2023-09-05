@@ -1,16 +1,15 @@
-import logo from './construccion.gif';
-import './App.css';
+import logo from "./construccion.gif";
+import "./App.css";
+import Construccion from "./Components/Construccion/Construccion";
+import Home from "./Components/Home/Home";
+import NavbarC from "./Components/Navbar/NavbarC";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo}  alt="logo" />
-        <p>
-         
-        </p>
-        
-      </header>
+      {/* <NavbarC /> */}
+      <Home />
+      <Construccion />
     </div>
   );
 }

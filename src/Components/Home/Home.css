@@ -1,0 +1,108 @@
+.AboutBody {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 3.5rem 0 0.5rem;
+  min-height: 100%;
+  height: fit-content;
+  font-size: 1.5rem;
+  padding-bottom: 7rem;
+  position: relative;
+}
+
+.AboutContainer {
+  padding-top: 3em;
+  padding-left: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+.StyledHeading {
+  display: flex;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+.Photo2{
+    margin-top: -70px;
+}
+
+.TextSection {
+  font-size: 1.2rem;
+  padding-top: 1.3em;
+  line-height: 1.4em;
+  color: black;
+  text-align: justify;
+}
+.Photo {
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 400px;
+  /* border-radius: 12%; */
+  transition: 0.3s ease-in;
+  align-self: center;
+  margin-top: 1em;
+
+  /*  filter: grayscale(100%); */
+}
+
+.Photo:hover {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+}
+.fotoo {
+  margin-top: -15%;
+  margin-left: -50px;
+}
+
+.btninfo{
+    height: 50px;
+    width: 170px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+.position{
+  text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .AboutBody {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .AboutContainer {
+    padding-top: 1em;
+    width: 100%;
+  }
+
+  .Photo {
+    filter: none;
+    margin-top: 0;
+  }
+  .Photo:hover {
+    filter: none;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Photo {
+    filter: none;
+    margin-left: 140px;
+    margin-top: 0;
+    width: 400px;
+    height: 600px;
+  }
+  .Photo:hover {
+    filter: none;
+    transform: none;
+  }
+  .btninfo{
+    
+    margin-left: 160px;
+}
+}
