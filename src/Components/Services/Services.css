@@ -1,0 +1,53 @@
+.services-experience {
+  background-color: #282c34;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.servicesTitle{
+    font-size: 2em;
+}
+
+.imgSpace {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.SvgContainer {
+  height: 150px;
+  width: 300px;
+}
+.titleCard {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+.btnVerMas {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  background-color: unset;
+}
+.btnVerMas:hover {
+  margin-left: 5px;
+}
+.cardContainer p {
+  font-style: italic;
+}
+
+.serviceDesciption{
+    text-align: justify;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

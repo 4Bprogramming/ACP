@@ -3,13 +3,22 @@ import "./App.css";
 import Construccion from "./Components/Construccion/Construccion";
 import Home from "./Components/Home/Home";
 import NavbarC from "./Components/Navbar/NavbarC";
+import About from "./Components/About/About";
+import Services from "./Components/Services/Services";
+import Testimonials from "./Components/Testimonials/Testimonials";
+
 
 function App() {
   return (
     <div className="App">
       {/* <NavbarC /> */}
       <Home />
-      <Construccion />
+      {/* <Construccion /> */}
+      <div className="AppBody" >
+      <About />
+      <Services />
+   <Testimonials />
+      </div>
     </div>
   );
 }
