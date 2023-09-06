@@ -11,7 +11,7 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 function App() {
   return (
     <div className="App">
-      {/* <NavbarC /> */}
+      <NavbarC /> 
       <Home />
       {/* <Construccion /> */}
       <div className="AppBody" >
