@@ -13,8 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Carlanga', 'Otto', 'Gisella','sobre mí'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['home', 'nosotros', 'servicios','contactos'];
+const settings = ['Perfil', 'Mi Cuenta', 'Chino pagarprata', 'Logout'];
 
 function NavbarC() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
