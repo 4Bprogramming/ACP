@@ -15,7 +15,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const pages = ["home", "nosotros", "servicios", "contactos"];
-const settings = ["Perfil", "Mi Cuenta", "Chino pagarprata", "Logout"];
+const settings = ["Perfil", "Mi Cuenta", "Chino pagaraprata", "Logout"];
 
 function NavbarC() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -30,6 +30,7 @@ function NavbarC() {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
+    
   };
 
   const handleCloseUserMenu = () => {
@@ -56,7 +57,7 @@ function NavbarC() {
     <ThemeProvider theme={theme}>
       <AppBar
         position="static"
-        sx={{ backgroundColor: theme.palette.primary.light }}
+        sx={{ backgroundColor: theme.palette.primary }}
       >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
@@ -115,8 +116,8 @@ function NavbarC() {
                 ))}
               </Menu>
             </Box>
-            {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
-            {/* <Typography
+            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            <Typography
               variant="h5"
               noWrap
               component="a"
@@ -133,7 +134,7 @@ function NavbarC() {
               }}
             >
               LOGO
-            </Typography> */}
+            </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
                 <Button
