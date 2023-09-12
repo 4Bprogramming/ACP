@@ -8,7 +8,7 @@ function Contact() {
     <div className="AboutContact">
 
     <div >
-      <h1 className="StyledHeadingContact">BIENVENIDOS</h1>
+      <h1 className="StyledHeadingContact">CONTACTO</h1>
 
       <div className="TextSectionContact">
         <p>Transformamos los datos en información
