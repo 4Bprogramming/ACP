@@ -10,8 +10,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.servicesTitle{
-    font-size: 2em;
+.servicesTitle {
+  font-size: 2em;
 }
 
 .imgSpace {
@@ -44,10 +44,31 @@
   font-style: italic;
 }
 
-.serviceDesciption{
-    text-align: justify;
-    width: 300px;
-    margin-left: 10px;
-    margin-right: 10px;
+.serviceDesciption {
+  text-align: justify;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
+@media screen and (max-width: 300px) {
+  .cardContainer {
+    margin-top: 10px;
+    width: 180px;
+  }
+  .imgSpace {
+    width: 1px;
+    margin-left: 95px;
+  }
+  .SvgContainer img {
+    width: 250px;
+    height: 200px;
+  }
+  .titleCard {
+    margin-top: 150px;
+  }
+  .serviceDesciption {
+    width: 250px;
+    margin-left: -30px;
+  }
+}
