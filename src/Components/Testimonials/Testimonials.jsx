@@ -1,48 +1,44 @@
 import React, { useState } from "react";
-import './Testimonials.css'
-import comilla from '../../Assets/comilla.png'
-
+import "./Testimonials.css";
+import comilla from "../../Assets/comilla.png";
 
 function Testimonials() {
-    const [Testimonials] = useState([
-        {
-          src: <img src={comilla} width="80px" height="40px"/>,
-          title: "Coach Empresarial",
-          desc:  "Acá estarán los testimonios",
-           active: false,
-        },
-        {
-            src: <img src={comilla} width="80px" height="40px"/>,
-          title: "Imagen Corporativa",
-          desc:  "Acá estarán los testimonios",
-          active: true,
-        },
-        {
-            src: <img src={comilla} width="80px" height="40px"/>,
-          title: "Gestión Interna",
-          desc:  "Acá estarán los testimonios",
-           active: false,
-        },
-      ]);
+  const [Testimonials] = useState([
+    {
+      src: <img src={comilla} width="80px" height="40px" />,
+      title: "Flor Manzanel, Grupo J B Justo",
+      desc: "Tuvimos una excelente experiencia trabajando con la consultora ACP Hicieron un análisis completo de nuestra cafeteria, nos hicieron una propuesta de organización y obtuvimos excelentes resultados con ello. Estamos totalmente satisfechos con su trabajo.",
+      active: false,
+    },
+    {
+      src: <img src={comilla} width="80px" height="40px" />,
+      title: "Martin Aguero. Rusticos Mendoza",
+      desc: "Me ayudaron mucho a re organizar mi empresa desde cero, muy exhaustivo el diagnostico, lo cual me permitió enforcarme en las areas que estaban sin organización y dirección.",
+      active: true,
+    },
+    // {
+    //   src: <img src={comilla} width="80px" height="40px" />,
+    //   title: "Gestión Interna",
+    //   desc: "Acá estarán los testimonios",
+    //   active: false,
+    // },
+  ]);
   return (
     <section className="Testimonials-experience">
       <h1 className="TestimonialsTitle">Testimonios</h1>
       <div className="containerTest">
-        
-          {Testimonials.map((Testimonial, i) => (
-            <div key={i} className="cardContainerTest">
-              <div className="imgSpaceTest">
+        {Testimonials.map((Testimonial, i) => (
+          <div key={i} className="cardContainerTest">
+            <div className="imgSpaceTest">
               <div className="SvgContainerTest">{Testimonial.src}</div>
-              </div>
-              <p className="TestimonialDesciption" >{Testimonial.desc}</p>
-              <div className="titleCardTest">{Testimonial.title}</div>
-             
             </div>
-          ))}
-        </div>
-  
+            <p className="TestimonialDesciption">{Testimonial.desc}</p>
+            <div className="titleCardTest">{Testimonial.title}</div>
+          </div>
+        ))}
+      </div>
     </section>
-  )
+  );
 }
 
-export default Testimonials
+export default Testimonials;
