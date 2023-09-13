@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import logo from "../../Assets/logo.png";
 import pict from "../../Assets/program.jpeg";
+import pict1 from "../../Assets/reuniones.jpg";
 import line from "../../Assets/line.png";
 
 function Home() {
@@ -19,7 +20,7 @@ function Home() {
           </div>
         </div>
         <div className="AboutContainer">
-          <img className="Photo" src={pict} />
+          <img className="Photo" src={pict1} />
         </div>
       </div>
     </div>
