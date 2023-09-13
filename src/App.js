@@ -6,6 +6,8 @@ import NavbarC from "./Components/Navbar/NavbarC";
 import About from "./Components/About/About";
 import Services from "./Components/Services/Services";
 import Testimonials from "./Components/Testimonials/Testimonials";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
@@ -13,12 +15,14 @@ function App() {
     <div className="App">
       <NavbarC /> 
       <Home />
-      {/* <Construccion /> */}
       <div className="AppBody" >
         <About />
         <Services />
         <Testimonials />
+        <Contact />
+        
       </div>
+      <Footer />
     </div>
   );
 }
