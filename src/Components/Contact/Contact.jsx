@@ -16,18 +16,13 @@ function Contact() {
           </p>
 
           <p>
-            <a
-              href="https://api.whatsapp.com/send?phone=5492616075153"
-              target="blank"
-            >
-              <img src={Whatsapp} width="50px" alt="Whatsapp" />
-            </a>
+            
           </p>
 
           <p style={{ fontWeight: "600" }}>
             CEL{" "}
             <span style={{ fontWeight: "200", marginLeft: "10px" }}>
-              2616075153 //2613051523
+              2616075153 // 2613051523
             </span>{" "}
           </p>
 
@@ -38,8 +33,13 @@ function Contact() {
             </span>{" "}
           </p>
 
-          <p style={{ fontWeight: "600" }}>
-            SOCIAL{" "}
+          <p style={{ fontWeight: "600",textAlign:"center"}}>
+          <a
+              href="https://api.whatsapp.com/send?phone=5492616075153"
+              target="blank"
+            >
+              <img src={Whatsapp} width="50px" alt="Whatsapp" style={{marginRight:"20px"}} />
+            </a>
             <a
               href="https://www.instagram.com/acp.gestion.marketing/?igshid=MzRlODBiNWFlZA=="
               target="blank"
@@ -47,8 +47,8 @@ function Contact() {
               {" "}
               <img
                 src={Instagram}
-                style={{ marginTop: "10px" }}
-                width="30px"
+                style={{ marginTop: "20px"}}
+                width="50px"
                 alt="Instagram"
               />{" "}
             </a>{" "}

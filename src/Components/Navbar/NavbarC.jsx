@@ -14,9 +14,10 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import BluetoothSearchingIcon from '@mui/icons-material/BluetoothSearching';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-
-const pages = ["home", "nosotros", "servicios", "contactos"];
-const settings = ["Perfil", "Mi Cuenta", "Chino pagaraprata", "Logout"];
+import logo from "../../Assets/logo3.jpg";
+import "./Navbar.css";
+const pages = ["Home", "Nosotros", "Servicios", "Contacto"];
+const settings = ["Home", "Nosotros", "Servicios", "Contacto"];
 
 function NavbarC() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -63,7 +64,7 @@ function NavbarC() {
       >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <BluetoothSearchingIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+            {/* <BluetoothSearchingIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
             <Typography
               variant="h6"
               noWrap
@@ -83,7 +84,7 @@ function NavbarC() {
             </Typography>
 
             
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
             <Typography
               variant="h5"
               noWrap
@@ -99,8 +100,23 @@ function NavbarC() {
                 color: "inherit",
                 textDecoration: "none"
               }}
+              
             >
-              LOGO
+              
+             <Button onClick={handleOpenUserMenu} 
+             sx={{
+                mr: 2,
+                display: { xs: "flex", md: "none" },
+                flexGrow: 1,
+                fontFamily: "monospace",
+                fontWeight: 700,
+                letterSpacing: ".3rem",
+                color: "inherit",
+                textDecoration: "none",
+                justifyContent: "flex-start",
+              }}>
+              <img  src={logo} className="Photo6"/>
+              </Button> 
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
@@ -117,12 +133,14 @@ function NavbarC() {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                  {/* <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" /> */}
+                  hola
                 </IconButton>
               </Tooltip>
               <Menu
                 sx={{
                   mt: "45px",
+                  // border:"2px solid red",
                   borderRadius: "8px",
                   boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)"
                 }}
@@ -130,12 +148,12 @@ function NavbarC() {
                 anchorEl={anchorElUser}
                 anchorOrigin={{
                   vertical: "top",
-                  horizontal: "right"
+                  horizontal: "center"
                 }}
                 keepMounted
                 transformOrigin={{
                   vertical: "top",
-                  horizontal: "right"
+                  horizontal: "center"
                 }}
                 open={Boolean(anchorElUser)}
                 onClose={handleCloseUserMenu}

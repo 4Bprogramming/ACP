@@ -21,9 +21,10 @@ function About() {
         de herramientas para lograr sus objetivos empresariales.
 </p>
       </div>
-      <div>
+      <div className="Listado">
         <h3>Valores de la empresa:</h3>
-       
+       <div className="UlForm">
+
         <ul>Responsabilidad</ul>
         <ul>Respeto</ul>
         <ul>Honestidad</ul>
@@ -32,6 +33,7 @@ function About() {
         <ul>Colaboración y creatividad</ul>
         <ul>Pasión</ul>
         <ul>Éxito</ul>
+       </div>
       </div>
     </div>
   );

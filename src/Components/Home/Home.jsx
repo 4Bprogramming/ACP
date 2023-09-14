@@ -14,11 +14,12 @@ function Home() {
           <img className="fotoo" src={line} alt="linea" />
           <div className="TextSection">
             <img className="Photo2" src={logo} />
-            <div className="position">
-              <button className="btninfo">Más info aquí</button>
-            </div>
+           
           </div>
         </div>
+        <div className="position">
+              <button className="btninfo">Más info aquí</button>
+            </div>
         <div className="AboutContainer">
           <img className="Photo" src={pict1} />
         </div>

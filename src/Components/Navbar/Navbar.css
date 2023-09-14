@@ -1,0 +1,10 @@
+.Photo6{
+    margin-top: -9px;
+}
+@media screen and (max-width: 482px){
+    .Photo6 {
+        width: 100px;
+        margin-left: 15px;
+    }
+
+}
