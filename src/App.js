@@ -8,12 +8,14 @@ import Services from "./Components/Services/Services";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import NavBarV2 from "./Components/Navbar/NavBarV2";
 
 
 function App() {
   return (
     <div className="App">
-      <NavbarC /> 
+      {/* <NavbarC />  */}
+      <NavBarV2/>
       <Home />
       <div className="AppBody" >
         <About />
