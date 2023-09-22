@@ -1,0 +1,13 @@
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiMenu-paper.MuiPopover-paper.MuiMenu-paper{
+    top: 65px!important;
+}
+.MuiList-root.MuiList-padding.MuiMenu-list{
+    padding: 0!important;
+}
+
+@media screen and (max-width: 599px) {
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiMenu-paper.MuiPopover-paper.MuiMenu-paper{
+        top: 56px!important;
+    }
+  }
