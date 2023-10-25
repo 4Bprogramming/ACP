@@ -41,11 +41,11 @@
   margin-left: 5px;
 }
 .cardContainer p {
-  font-style: italic;
+  font-style: montserrat;
 }
 
 .serviceDesciption {
-  text-align: justify;
+  text-align: center;
   width: 300px;
   margin-left: 10px;
   margin-right: 10px;

@@ -40,7 +40,7 @@
   align-items: center;
   height: 400px;
   width: 400px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   transition: 0.3s ease-in;
   align-self: center;
   margin-top: 8rem;
@@ -52,6 +52,8 @@
 .fotoo {
   margin-top: -15%;
   margin-left: -50px;
+  /* border: solid red; */
+  
   
 
 }
@@ -60,7 +62,7 @@
     height: 50px;
     width: 170px;
     background-color: black;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     color: white;
     
 }
@@ -71,7 +73,7 @@
     display: flex;
     align-items: flex-end;
 }
-@media screen and (max-width: 988px) {
+@media screen and (max-width: 1040px) {
   .TextSection {
     font-size: 0.8rem;
     padding-top: 0.6em;
@@ -81,9 +83,12 @@
   }
   .Photo2{
     width: 400px;
+    margin-top: 0%;
+    
   }
   .Photo{
     width: 300px;
+    margin-bottom: 2%;
   }
 }
 
@@ -164,5 +169,7 @@
 .StyledHeading{
   font-size: 0.8rem;
 }
-
+.fotoo{
+  width: 250px;
+}
 }

@@ -141,7 +141,7 @@ function NavbarC() {
                 sx={{
                   mt: "45px",
                   // border:"2px solid red",
-                  borderRadius: "8px",
+                  // borderRadius: "8px",
                   boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)"
                 }}
                 id="menu-appbar"

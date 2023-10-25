@@ -21,7 +21,7 @@ function Services() {
         {
             src: <img src={inge} width="300px" height="200px"/>,
           title: "Gestión Interna",
-          desc:  "Auditoria de Gestión interna: Planificación y reorganización de los objetivos de tu empresa. Gestión interna deprocedimientos internos, personal, y agenda de clientes.",
+          desc:  "Auditoria de Gestión interna: Planificación y reorganización de los objetivos de la empresa. Gestión de procedimientos internos, personal, y agenda de clientes.",
           active: false,
         },
       ]);

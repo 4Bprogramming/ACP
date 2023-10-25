@@ -9,6 +9,7 @@
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
+    /* border: solid red; */
   }
   .TestimonialsTitle{
       font-size: 3rem;
@@ -16,15 +17,16 @@
   
  
   .SvgContainerTest {
-    height: 150px;
+    height: 80px;
     width: 300px;
     transform: scaleY(-1) scaleX(-1);
   }
   .titleCardTest {
+   
     font-size: 17px;
     font-weight: 600;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 1px;
+    margin-top: 1px;
   }
   
   .cardContainerTest p {
@@ -32,10 +34,33 @@
   }
   
   .TestimonialDesciption{
-      text-align: justify;
+      text-align: center;
       width: 300px;
       margin-left: 10px;
       margin-right: 10px;
   }
-  
+  @media screen and (max-width: 310px) {
+.TestimonialDesciption{
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.titleCardTest{
+  font-size: 15px;
+  text-align: center;
+  margin-left: 30px;
+}
+.TestimonialsTitle{
+  font-size: 2.5rem;
+}
+
+  .titleCardTest{
+    width: 250px;
+  }
+  .containerTest{
+    width: 260px;
+  }
+
+  }
   
