@@ -7,7 +7,7 @@ import line from "../../Assets/line.png";
 
 function Home() {
   return (
-    <div>
+    <div id="home">
       <div className="AboutBody">
         <div className="AboutContainer">
           <div className="StyledHeading">C O N S U L T O R A</div>

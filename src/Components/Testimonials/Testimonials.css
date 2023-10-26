@@ -1,6 +1,7 @@
 .Testimonials-experience {
     background-color: #282c34;
     color: white;
+    margin-top: 40px;
   }
   .containerTest {
     display: flex;
@@ -12,7 +13,7 @@
     /* border: solid red; */
   }
   .TestimonialsTitle{
-      font-size: 3rem;
+      font-size: 2.5rem;
   }
   
  

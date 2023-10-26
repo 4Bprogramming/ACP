@@ -24,8 +24,8 @@ function Testimonials() {
     },
   ]);
   return (
-    <section className="Testimonials-experience">
-      <h1 className="TestimonialsTitle">Testimonios</h1>
+    <section className="Testimonials-experience" id="testimonials">
+      <h1 className="TestimonialsTitle">TESTIMONIOS</h1>
       <div className="containerTest">
         {Testimonials.map((Testimonial, i) => (
           <div key={i} className="cardContainerTest">

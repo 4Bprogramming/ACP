@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Services.css'
-import mano from '../../Assets/junta.jpg'
+import mano from '../../Assets/coaching.jpg'
 import laptop from '../../Assets/leptop.jpg'
 import inge from '../../Assets/inge.jpg'
 
@@ -26,7 +26,7 @@ function Services() {
         },
       ]);
   return (
-    <section className="services-experience">
+    <section className="services-experience" id="services">
       <h1 className="servicesTitle">SERVICIOS</h1>
       <div className="container">
         

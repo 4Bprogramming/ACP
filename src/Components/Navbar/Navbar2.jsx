@@ -60,28 +60,33 @@ function Navbar2() {
               Home{" "}
             </Nav.Link>
           </Nav.Item>
-          {/* <Nav.Item>
+          <Nav.Item>
             <Nav.Link href="#about" onClick={() => onUpdateActiveLink("about")}>
-              Sobre mi
+              Nosotros
             </Nav.Link>
-          </Nav.Item> */}
+          </Nav.Item>
 
           <Nav.Item>
             <Nav.Link
-              href="#rpsp"
+              href="#services"
               onClick={() => onUpdateActiveLink("testimony")}
             >
-              R.P.S.P.
+              Servicios
             </Nav.Link>
           </Nav.Item>
-          <Button className="resumebtn">
+          
              <Nav.Link
+              href="#testimonials"
+              onClick={() => onUpdateActiveLink("testimony")}
+            >
+            <span>Testimonios</span>
+            </Nav.Link>
+            <Nav.Link
               href="#contact"
               onClick={() => onUpdateActiveLink("testimony")}
             >
-            <span>Pedidos de Oración</span>
+            <span>Contactanos</span>
             </Nav.Link>
-          </Button>
    
         </Nav>
       </Navbar.Collapse>

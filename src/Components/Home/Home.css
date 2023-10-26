@@ -7,6 +7,8 @@
   font-size: 1.5rem;
   padding-bottom: 7rem;
   position: relative;
+  margin-top: 20px;
+  /* margin-bottom: 30px; */
 }
 
 .AboutContainer {
@@ -105,6 +107,7 @@
     position: relative;
     flex-wrap: wrap;
     align-content: space-around;
+    margin-top: 70px;
   }
   .AboutContainer {
     padding-top: 1em;

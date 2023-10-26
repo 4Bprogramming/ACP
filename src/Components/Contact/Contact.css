@@ -2,9 +2,10 @@
   display: flex;
   width: 98%;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 60px;
   margin-bottom: 3rem;
   justify-content: space-around;
+ /* border: solid green; */
 }
 
 .photoContact {
@@ -24,18 +25,22 @@
 
 .StyledHeadingContact {
   display: flex;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: White;
+  /* border: solid red; */
+  margin-bottom: 1px;
+  margin-top: 35px;
 }
 
 .TextSectionContact {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 40px;
+  margin-top: 1px;
   text-align: justify;
   font-size: 1.2rem;
   width: 500px;
   color: white;
+  /* border: solid red; */
 }
 
 @media screen and (max-width: 1200px) {

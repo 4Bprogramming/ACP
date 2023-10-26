@@ -3,17 +3,17 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="aboutSection">
+    <div className="aboutSection" id="about">
       <br />
       <h1 className="titleAbout">ACERCA DE NOSOTROS</h1>
-        <div>
+        <div className="vision">
           <h3>Visión:</h3>
           <p className="textAboutPart" > Ser una consultora reconocida en toda Mendoza, 
           por brindar apoyo y solucionar de manera rápida y efectiva las necesidades de 
           nuestros clientes.
           </p>
         </div>
-      <div>
+      <div className="mision">
         <h3>Misión:</h3>
         <p className="textAboutPart">Somos un equipo de profesionales 
           capacitados y vocación de servicio, dedicados a identificar las necesidades de negocio y marketing de 
@@ -21,7 +21,7 @@ function About() {
           de herramientas para lograr sus objetivos empresariales.
         </p>
       </div>
-      <div className="SpaceBody">
+      <div className="SpaceBody2">
         
          <h3 >
           

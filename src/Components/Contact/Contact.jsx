@@ -5,7 +5,7 @@ import Instagram from "../../Assets/instagram.png";
 
 function Contact() {
   return (
-    <div className="AboutContact">
+    <div className="AboutContact" id="contact">
       <div>
         <h1 className="StyledHeadingContact">CONTACTO</h1>
 
@@ -47,7 +47,7 @@ function Contact() {
               {" "}
               <img
                 src={Instagram}
-                style={{ marginTop: "20px"}}
+                style={{ marginTop: "2px"}}
                 width="50px"
                 alt="Instagram"
               />{" "}
