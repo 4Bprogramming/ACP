@@ -10,10 +10,10 @@ function Contact() {
         <h1 className="StyledHeadingContact">CONTACTO</h1>
 
         <div className="TextSectionContact">
-          <p>
+          {/* <p>
             Transformamos los datos en información para la toma de decisiones,
             contactate al
-          </p>
+          </p> */}
 
           <p>
             
@@ -56,7 +56,7 @@ function Contact() {
         </div>
       </div>
 
-      <div className="photoContact"></div>
+      {/* <div className="photoContact"></div> */}
     </div>
   );
 }

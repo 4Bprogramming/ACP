@@ -1,10 +1,12 @@
 .AboutContact {
   display: flex;
+  flex-direction: column;
   width: 98%;
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 3rem;
   justify-content: center;
+  align-items: center;
   /* justify-content: space-around; */
  /* border: solid green; */
 }
@@ -18,11 +20,11 @@
   background-repeat: no-repeat;
   overflow: hidden;
 }
-.photoContact:hover {
+/* .photoContact:hover {
   filter: grayscale(80%);
   transform: scale(1.1);
   transition: 500ms;
-}
+} */
 
 .StyledHeadingContact {
   display: flex;
@@ -41,6 +43,8 @@
   font-size: 1.2rem;
   width: 500px;
   color: white;
+  display: flex;
+  flex-direction: column-reverse;
   /* border: solid red; */
 }
 
@@ -58,6 +62,7 @@
   .photoContact {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border: solid red;
   }
   .TextSectionContact {
     margin-top: 70px;
