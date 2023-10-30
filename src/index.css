@@ -30,6 +30,6 @@ h3{
   font-weight: 600;
   justify-content: center;
 }
-p{
+p, span{
   font-family: 'montserrat';
 }

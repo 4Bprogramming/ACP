@@ -98,7 +98,7 @@
     border: none;
   }
   
-  @media (max-width: 767px) {
+  @media (max-width: 770px) {
     .navbar {
       padding: 0rem 0.1rem 0.1rem 0rem!important;
       background-color:  #282c34!important;
