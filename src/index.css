@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'lovelo';
+  src: url('./Assets/fonts/lovelo/Lovelo\ Black.otf');
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url('./Assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+h1{
+  font-family: 'lovelo';
+  justify-content: center;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-weight: 600;
+  justify-content: center;
+}
+p{
+  font-family: 'montserrat';
+}

@@ -16,7 +16,7 @@ function About() {
       <div className="mision">
         <h3>Misión:</h3>
         <p className="textAboutPart">Somos un equipo de profesionales 
-          capacitados y vocación de servicio, dedicados a identificar las necesidades de negocio y marketing de 
+          capacitados y con vocación de servicio, dedicados a identificar las necesidades de negocio y marketing de 
           nuestros clientes, al cual acompañamos en el proceso de gestión y desarrollo 
           de herramientas para lograr sus objetivos empresariales.
         </p>
