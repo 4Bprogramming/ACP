@@ -18,9 +18,12 @@
   
  
   .SvgContainerTest {
-    height: 80px;
-    width: 300px;
-    transform: scaleY(-1) scaleX(-1);
+    height: 50px;
+    width: 100px;
+    margin-bottom: 2px;
+    /* border: solid red; */
+
+    /* transform: scaleY(-1) scaleX(-1); */
   }
   .titleCardTest {
    
@@ -29,9 +32,15 @@
     margin-bottom: 1px;
     margin-top: 1px;
   }
-  
+  .cardContainerTest{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .cardContainerTest p {
     font-style: italic;
+    margin-top: 2px;
   }
   
   .TestimonialDesciption{
