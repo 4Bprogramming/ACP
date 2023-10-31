@@ -30,7 +30,7 @@ function Testimonials() {
     {
       src: <img src={eco} width="120px" height="50px" />,
       title: "Armando Parlanti. Eco Cuyum",
-      desc: "Actualmente estamos planificando nuestra desarrollo de imagen corporativa y desarrollo publicitario con ACP y ya estamos implementando la venta online, gracias a la colaboración de la consultora.",
+      desc: "Actualmente estamos planificando nuestro desarrollo de imagen corporativa y desarrollo publicitario con ACP y ya estamos implementando la venta online, gracias a la colaboración de la consultora.",
       active: true,
     },
   ]);
