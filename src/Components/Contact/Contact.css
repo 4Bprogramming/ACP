@@ -58,13 +58,13 @@
     width: 90%;
     margin: 0 auto;
   }
-
+  
   .photoContact {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: solid red;
   }
   .TextSectionContact {
+    /* border: solid red; */
     margin-top: 70px;
   }
 }
@@ -74,10 +74,18 @@
     width: 320px;
     height: 320px;
   }
+  .TextSectionContact {
+    margin-top: 40px;
+    /* border: solid red; */
+    width: 300px;
+    height: 200px;
+
+  }
 }
 @media screen and (max-width: 315px) {
   .photoContact {
     width: 200px;
     height: 200px;
   }
+
 }

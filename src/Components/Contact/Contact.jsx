@@ -19,20 +19,20 @@ function Contact() {
             
           </p>
 
-          <p style={{ fontWeight: "600" }}>
-            CEL{" "}
-            <span style={{ fontWeight: "200", marginLeft: "10px" }}>
-              2616075153 // 2613051523
+          <p style={{ fontWeight: "600"}}>
+            {` CEL:  `}
+            <span style={{ fontWeight: "200", marginLeft: "5px" }}>
+              {`2616075153//2613051523`}
             </span>{" "}
           </p>
 
           <p style={{ fontWeight: "600" }}>
-            EMAIL: 
-            <a href='mailto:acpgestionymarketing@gmail.com'> ACPmail </a>
+            EMAIL:    
+                <a  href='mailto:acpgestionymarketing@gmail.com' style={{marginLeft:"10px"}}>ACPmail </a>
             {/* <span style={{ fontWeight: "200", marginLeft: "10px" }}>
               acpgestionymarketing@gmail.com
             </span>{" "} */}
-          </p>
+           </p>
 
           <p style={{ fontWeight: "600",textAlign:"center"}}>
           <a

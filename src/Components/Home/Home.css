@@ -145,16 +145,29 @@
   }
   .Photo2{
     margin-top: 10px;
-    margin-left: -5px;
+    margin-left: -30px;
     width: 300px;
   }
   .btninfo{
     
     margin-left: -70px;
 }
+.StyledHeading {
+  display: flex;
+  font-size: 2rem;
+  text-align:left ;
+  font-weight: 1000;
+  font-family: 'lovelo';
+  /* border: solid red; */
+  margin-left: -35px;
+}
+/* .fotoo{ */
+  /* margin-left: -10px; */
+  /* border: solid salmon; */
+/* } */
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 370px) {
   .Photo {
 
     margin-top: 0;
@@ -163,15 +176,17 @@
   }
   .Photo2{
     margin-top: 10px;
+    border: solid red;
     margin-left: -20px;
-    width: 200px;
+    width: 250px;
   }
   .btninfo{
     
     margin-left: -50px;
 }
 .StyledHeading{
-  font-size: 0.8rem;
+  font-size: 1.5rem;
+  margin-left: -45px;
 }
 .fotoo{
   width: 250px;
