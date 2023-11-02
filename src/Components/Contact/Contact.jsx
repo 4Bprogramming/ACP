@@ -27,7 +27,7 @@ function Contact() {
           </p>
 
           <p style={{ fontWeight: "600" }}>
-            EMAIL
+            EMAIL: 
             <a href='mailto:acpgestionymarketing@gmail.com'> ACPmail </a>
             {/* <span style={{ fontWeight: "200", marginLeft: "10px" }}>
               acpgestionymarketing@gmail.com
