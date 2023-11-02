@@ -29,7 +29,7 @@ function Contact() {
           <p style={{ fontWeight: "600" }}>
             EMAIL
             <span style={{ fontWeight: "200", marginLeft: "10px" }}>
-              hola@gmail.com
+              acpgestionymarketing@gmail.com
             </span>{" "}
           </p>
 
