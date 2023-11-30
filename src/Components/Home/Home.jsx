@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import logo from "../../Assets/presentar.png";
+import logo from "../../Assets/presentar.png"; 
 import pict from "../../Assets/program.jpeg";
 import pict1 from "../../Assets/reuniones.jpg";
 import line from "../../Assets/line.png";
