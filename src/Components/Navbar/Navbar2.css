@@ -14,7 +14,7 @@
   }
   .sticky {
     transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px  rgba(9, 5, 29, 0.171) !important;
+    box-shadow: 0px 10px 10px 0px  rgb(239, 238, 245) !important;
     backdrop-filter: blur(15px) !important;
   }
   .navbar-toggler {
@@ -25,7 +25,7 @@
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #191919;
+    background-color: #f8f0f0;
     height: 4px !important;
     width: 28px !important;
     margin-top: 3px !important;
@@ -129,7 +129,13 @@
       letter-spacing: 1px;
     }
     .logo{
-      width: 60px;
-      height: 60px;
+      width: 75px;
+      height: 75px;
     }
   }
+  /* @media (max-width:350) {
+    .logo{
+
+    }
+    
+  } */
